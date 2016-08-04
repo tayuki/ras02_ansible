@@ -10,9 +10,11 @@ Setup RaspberryPi at home.
 
 ## Usage
 - deploy
-		$ git clone https://github.com/tayuki/ras02_ansible.git
-		$ cd ras02_ansible
-		$ ansible-playbook -i hosts main.yml
+```
+$ git clone https://github.com/tayuki/ras02_ansible.git
+$ cd ras02_ansible
+$ ansible-playbook -i hosts main.yml
+````
 
 - test
 
