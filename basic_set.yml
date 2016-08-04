@@ -1,0 +1,9 @@
+---
+- hosts: ras02
+  sudo: yes
+  tasks:
+    - name: be sure hostname is ras02
+      hostname: name=ras02
+
+    - name: be sure zabbix-agent is installed
+      apt: name=zabbix-agent state=present
